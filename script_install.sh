@@ -9,7 +9,7 @@ if [[ $yesorno == "Y" ]] || [[ $yesorno == "y" ]]; then
     cpu=$(uname -m)
     if [[ $cpu == "x86_64" ]]; then
         archdeb="x64"
-        url="https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/binx64"
+        url="https://raw.githubusercontent.com/dioga11/Ninja_Server_Termux/main/binx64"
     elif [[ $cpu == "aarch64" ]]; then
         archdeb="aarch64"
         url="https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main"
